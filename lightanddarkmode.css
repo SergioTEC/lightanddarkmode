@@ -1,0 +1,9 @@
+#nome, #email, #mensagem {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#bDarkMode {
+    display: flex;
+    float: right;
+}
