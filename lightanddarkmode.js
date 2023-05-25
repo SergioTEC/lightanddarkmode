@@ -1,4 +1,4 @@
-const bDarkMode = document.getElementById('bDarkMode')
+const bDarkMode = document.getElementsByClassName('bDarkMode')
 
 function darklModeOn(){
     return
