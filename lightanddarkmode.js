@@ -1,7 +1,11 @@
-const bDarkMode = document.getElementsByClassName('bDarkMode')
+const buttonDarkMode = document.getElementById('buttonDarkMode');
+const bgWhite = document.querySelector('body.bg-white');
 
 function darklModeOn(){
-    return
+    if(bgWhite.classList.contains('bg-white')){
+        bgWhite.classList.remove('bg-white');
+        bgWhite.classList.add('bg-black');
+    }
 }
 
-bDarkMode.addEventListener('click', darklModeOn)
+buttonDarkMode.addEventListener('click', darklModeOn);
